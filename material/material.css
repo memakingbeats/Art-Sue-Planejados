@@ -10,6 +10,10 @@ body {
 .no-padding-margin {
     padding: 0 !important;
 }
+.logo a img {
+    width: 200px;
+    height: auto;
+}
 
 /* Estilo para as setas (arrows) do carousel */
 .carousel-control-prev-icon,
@@ -18,7 +22,7 @@ body {
 }
 
 .fixed-top {
-    background-color: rgba(48, 33, 6, 0.929);
+    background-color: rgba(31, 21, 1, 0.929);
 }
 
 .navbar-brand img {
@@ -30,7 +34,15 @@ body {
 
 .navbar-collapse .nav-item {
     margin-left: 1rem;
-    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase; /* Para tornar as letras maiúsculas */
+    transition: transform 0.3s ease; /* Adiciona transição suave ao crescimento */
+}
+
+.navbar-collapse .nav-item:hover {
+    transform: scale(1.2); /* Cresce 20% ao passar o mouse */
 }
 
 .foot {
@@ -66,6 +78,10 @@ body {
 }
 
 @media (max-width: 767px) {
+    .logo a img {
+        width: 100px;
+        height: auto;
+    }
     .foot .offset-md-10 {
         margin-left: 3rem;
     }

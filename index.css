@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 50px; /* Adicione algum espaço entre o topo e a seção ao rolar */
 }
+.logo a img {
+    width: 200px;
+    height: auto;
+}
 
 .no-padding-margin {
     padding: 0 !important;
@@ -21,7 +25,7 @@ html {
 }
 
 .fixed-top {
-    background-color: rgba(48, 33, 6, 0.929);
+    background-color: rgba(31, 21, 1, 0.929);
 }
 
 .navbar-brand img {
@@ -33,7 +37,15 @@ html {
 
 .navbar-collapse .nav-item {
     margin-left: 1rem;
-    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase; /* Para tornar as letras maiúsculas */
+    transition: transform 0.3s ease; /* Adiciona transição suave ao crescimento */
+}
+
+.navbar-collapse .nav-item:hover {
+    transform: scale(1.2); /* Cresce 20% ao passar o mouse */
 }
 
 .carousel img {
@@ -136,6 +148,7 @@ html {
     padding: 5rem 15rem 5rem 15rem;
     background-color: rgb(244, 238, 227);
     width: 100vw; /* Definindo largura igual à largura da viewport */
+    display: none;
 }
 
 .testimo h2 {
@@ -176,6 +189,10 @@ html {
 }
 
 @media (max-width: 767px) {
+    .logo a img {
+        width: 100px;
+        height: auto;
+    }
     .carousel img {
         margin-top: 5rem;
         height: 200px;
