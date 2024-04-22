@@ -13,6 +13,15 @@ html {
     width: 200px;
     height: auto;
 }
+.custom-toggler {
+    background-color: #8e7758; /* Cor de fundo personalizada */
+    border-color: #8e7758; /* Cor da borda personalizada */
+}
+
+.custom-toggler:hover {
+    background-color: #7a674d; /* Cor de fundo personalizada quando hover */
+    border-color: #7a674d; /* Cor da borda personalizada quando hover */
+}
 
 .no-padding-margin {
     padding: 0 !important;
@@ -232,5 +241,8 @@ html {
 
     .foot .offset-md-10 {
         margin-left: 3rem;
+    }
+    .copy {
+        font-size: 10px;
     }
 }

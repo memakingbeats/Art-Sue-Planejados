@@ -15,6 +15,16 @@ body {
     height: auto;
 }
 
+.custom-toggler {
+    background-color: #8e7758; /* Cor de fundo personalizada */
+    border-color: #8e7758; /* Cor da borda personalizada */
+}
+
+.custom-toggler:hover {
+    background-color: #7a674d; /* Cor de fundo personalizada quando hover */
+    border-color: #7a674d; /* Cor da borda personalizada quando hover */
+}
+
 /* Estilo para as setas (arrows) do carousel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -122,5 +132,8 @@ body {
 
     .sessao img {
         margin-top: 2rem;
+    }
+    .copy {
+        font-size: 10px;
     }
 }
