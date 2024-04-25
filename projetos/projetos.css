@@ -121,6 +121,7 @@ body {
     .sessao {
         height: 180rem;
         margin-top: 10rem;
+        margin-bottom: 10rem;
     }
 
     .sessao img {
