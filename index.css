@@ -258,6 +258,11 @@ html {
         padding: 40px; /* Adapte conforme necessário */
     }
 
+    .map-iframe {
+        width: 100%; /* Largura total para dispositivos móveis */
+        height: 300px; /* Altura ajustada para dispositivos móveis */
+    }
+
     .copy {
         font-size: 10px;
     }
