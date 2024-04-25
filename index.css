@@ -193,10 +193,6 @@ html {
     margin-bottom: 2rem;
 }
 
-.foot .fa-instagram {
-    margin-right: 2rem;
-}
-
 @media (max-width: 767px) {
     .logo a img {
         width: 100px;
@@ -228,17 +224,17 @@ html {
     .btn-lg {
         margin-bottom: 3rem;
     }
+
+    .formular {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 300px; /* Ajuste conforme necessário */
+    }
     .formular h4 {
         font-size: 20px;
     }
 
-    .formular form {
-        width: 100%;
-    }
-
-    .mt-3 iframe {
-        width: 70%;
-    }
     .confianca {
         padding: 0;
     }
@@ -255,10 +251,13 @@ html {
     .testimo .carousel-control-prev {
         margin-left: 0rem;
     }
-
-    .foot .offset-md-10 {
-        margin-left: 3rem;
+    footer {
+        text-align: center;
     }
+    .foot {
+        padding: 40px; /* Adapte conforme necessário */
+    }
+
     .copy {
         font-size: 10px;
     }
