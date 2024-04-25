@@ -206,6 +206,12 @@ html {
         margin-top: 5rem;
         height: 200px;
     }
+    .sobre h5 {
+        font-size: 15px;
+    }
+    .sobre h2 {
+        font-size: 20px;
+    }
 
     .carousel .carousel-control-prev {
         margin-top: 5rem;
