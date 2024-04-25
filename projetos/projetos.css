@@ -112,17 +112,10 @@ body {
     margin-bottom: 2rem;
 }
 
-.foot .fa-instagram {
-    margin-right: 2rem;
-}
-
 @media (max-width: 767px) {
     .logo a img {
         width: 100px;
         height: auto;
-    }
-    .foot .offset-md-10 {
-        margin-left: 3rem;
     }
 
     .sessao {
@@ -132,6 +125,27 @@ body {
 
     .sessao img {
         margin-top: 2rem;
+    }
+    footer {
+        text-align: center;
+    }
+    .foot {
+        padding: 40px; /* Adapte conforme necessário */
+    }
+
+    .formular {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 300px; /* Ajuste conforme necessário */
+    }
+    .formular h4 {
+        font-size: 20px;
+    }
+
+    .map-iframe {
+        width: 100%; /* Largura total para dispositivos móveis */
+        height: 300px; /* Altura ajustada para dispositivos móveis */
     }
     .copy {
         font-size: 10px;
