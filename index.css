@@ -228,6 +228,17 @@ html {
     .btn-lg {
         margin-bottom: 3rem;
     }
+    .formular h4 {
+        font-size: 20px;
+    }
+
+    .formular form {
+        width: 100%;
+    }
+
+    .mt-3 iframe {
+        width: 70%;
+    }
     .confianca {
         padding: 0;
     }
