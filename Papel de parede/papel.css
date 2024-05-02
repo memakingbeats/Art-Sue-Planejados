@@ -14,7 +14,6 @@ body {
     width: 200px;
     height: auto;
 }
-
 .custom-toggler {
     background-color: #8e7758; /* Cor de fundo personalizada */
     border-color: #8e7758; /* Cor da borda personalizada */
@@ -55,9 +54,9 @@ body {
     transform: scale(1.2); /* Cresce 20% ao passar o mouse */
 }
 
-.sessao {
+.sessao2 {
     height: 80rem;
-    margin-top: 20rem;
+    margin-top: 0rem;
     padding: 2rem;
     position: relative;
     background-color: rgb(244, 238, 227);
@@ -112,21 +111,39 @@ body {
     margin-bottom: 2rem;
 }
 
+.sessao {
+    margin-top: 20rem;
+    background-color: rgb(244, 238, 227);
+}
+.sessao h2 {
+    margin-bottom: 5rem;
+}
+
+.sessao p {
+    margin-bottom: 5rem;
+}
 @media (max-width: 767px) {
     .logo a img {
         width: 100px;
         height: auto;
     }
-
-    .sessao {
-        height: 180rem;
+    .sessao2 {
+        height: 190rem;
         margin-top: 10rem;
         margin-bottom: 10rem;
     }
 
-    .sessao img {
-        margin-top: 2rem;
+    .sessao {
+        margin-top: 10rem;
     }
+    .sessao p {
+        margin-bottom: -3rem;
+    }
+
+    .copy {
+        font-size: 10px;
+    }
+
     footer {
         text-align: center;
     }
@@ -148,14 +165,10 @@ body {
         width: 100%; /* Largura total para dispositivos móveis */
         height: 300px; /* Altura ajustada para dispositivos móveis */
     }
-    .copy {
-        font-size: 10px;
-    }
 }
 
-/* Adicione estas regras dentro da sua media query existente */
 @media (min-width: 386px) and (max-width: 500px) {
-    .sessao {
+    .sessao2 {
         height: 240rem;
         margin-bottom: 0rem;
     }
@@ -163,20 +176,20 @@ body {
 
 /* Adicione estas regras dentro da sua media query existente */
 @media (min-width: 501px) and (max-width: 607px) {
-    .sessao {
-        height: 290rem;
+    .sessao2 {
+        height: 320rem;
     }
 }
 /* Adicione estas regras dentro da sua media query existente */
 @media (min-width: 608px) and (max-width: 767px) {
-    .sessao {
-        height: 370rem;
+    .sessao2 {
+        height: 410rem;
     }
 }
 
 /* Adicione estas regras dentro da sua media query existente */
 @media (min-width: 768px) and (max-width: 1000px) {
-    .sessao {
+    .sessao2 {
         margin-bottom: -40rem;
     }
     .formular {
@@ -192,7 +205,7 @@ body {
 }
 /* Adicione estas regras dentro da sua media query existente */
 @media (min-width: 1001px) and (max-width: 2000px) {
-    .sessao {
+    .sessao2 {
         margin-bottom: -10rem;
     }
 }

@@ -46,7 +46,7 @@ html {
 
 .navbar-collapse .nav-item {
     margin-left: 1rem;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase; /* Para tornar as letras maiúsculas */
@@ -265,5 +265,26 @@ html {
 
     .copy {
         font-size: 10px;
+    }
+}
+
+/* Adicione estas regras dentro da sua media query existente */
+@media (min-width: 768px) and (max-width: 1000px) {
+    .confianca {
+        padding: 0;
+    }
+    .confianca-cols .col-md-4 {
+        margin: 10px; /* Define o espaçamento entre as colunas */
+        width: 20%;
+    }
+
+    .formular {
+        margin-right: auto; /* Centralize o formulário na largura disponível */
+        max-width: 200px; /* Ajuste a largura máxima do formulário conforme necessário */
+        margin-top: 20px; /* Aproxime o formulário do restante do conteúdo */
+    }
+
+    .formular h4 {
+        font-size: 20px;
     }
 }

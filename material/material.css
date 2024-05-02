@@ -43,7 +43,7 @@ body {
 
 .navbar-collapse .nav-item {
     margin-left: 1rem;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase; /* Para tornar as letras maiúsculas */
@@ -70,22 +70,27 @@ body {
 }
 
 .sessao {
-    margin-top: 15rem;
+    margin-top: 20rem;
     background-color: rgb(244, 238, 227);
 }
 
 .sessao h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .sessao p {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 @media (max-width: 767px) {
     .logo a img {
         width: 100px;
         height: auto;
+    }
+
+    .sessao {
+        margin-top: 10rem;
+        background-color: rgb(244, 238, 227);
     }
 
     .copy {
@@ -112,5 +117,18 @@ body {
     .map-iframe {
         width: 100%; /* Largura total para dispositivos móveis */
         height: 300px; /* Altura ajustada para dispositivos móveis */
+    }
+}
+
+/* Adicione estas regras dentro da sua media query existente */
+@media (min-width: 768px) and (max-width: 1000px) {
+    .formular {
+        margin-right: auto; /* Centralize o formulário na largura disponível */
+        max-width: 200px; /* Ajuste a largura máxima do formulário conforme necessário */
+        margin-top: 20px; /* Aproxime o formulário do restante do conteúdo */
+    }
+
+    .formular h4 {
+        font-size: 20px;
     }
 }
