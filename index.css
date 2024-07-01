@@ -10,7 +10,7 @@ html {
     scroll-padding-top: 50px; /* Adicione algum espaço entre o topo e a seção ao rolar */
 }
 .logo a img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 .custom-toggler {
